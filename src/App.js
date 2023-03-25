@@ -24,7 +24,7 @@ export default function App() {
           priekšgalsistēmu (angļu v. <em>front-end</em>) populārāko bibliotēku{" "}
           <em>React</em>? Varbūt vēlies apgūt arī citus tīmekļa izstrādē
           izmantotos ietvarus (angļu v. <em>frameworks</em>), bibliotēkas? Ja
-          atbile ir <strong>Jā!</strong>, tad spied uz pieteikšanās pogas!
+          atbilde ir <strong>Jā!</strong>, tad spied uz pieteikšanās pogas!
         </Text>
         <Text mb="xl" mt="md" c="dimmed">
           Šīs interešu nodarbības nav saistītas ar <em>Draugiem Group</em>{" "}
