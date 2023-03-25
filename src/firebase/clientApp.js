@@ -9,6 +9,7 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.REACT_PUBLIC_FIREBASE_APP_ID,
 };
+//New deployment
 
 const app = initializeApp(firebaseConfig);
 
