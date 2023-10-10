@@ -7,28 +7,29 @@ export default function App() {
     <MantineProvider withGlobalStyles withNormalizeCSS>
       <Container mt="3rem">
         <Title align="center" mb="lg">
+          Iemāci Jēkabam{" "}
           <Text
             span
             variant="gradient"
             gradient={{ from: "grape.5", to: "grape.9", deg: 45 }}
           >
-            React
+            programmēt
           </Text>{" "}
-          un citi ietvari
         </Title>
         <Prism language="tsx" mb="lg">
           {`const [knowledge, setKnowledge] = useState("100%");`}
         </Prism>
         <Text>
-          Vai tev interesētu apmeklēt papildus nodarbības, lai apgūtu
-          priekšgalsistēmu (angļu v. <em>front-end</em>) populārāko bibliotēku{" "}
-          <em>React</em>? Varbūt vēlies apgūt arī citus tīmekļa izstrādē
-          izmantotos ietvarus (angļu v. <em>frameworks</em>), bibliotēkas? Ja
-          atbilde ir <strong>Jā!</strong>, tad spied uz pieteikšanās pogas!
+          Priekšgalsistēmā (angļu v. <em>front-end</em>) <em>React</em>,
+          aizmugursistēmā (angļu v. <em>back-end</em>) <em>Laravel</em>, pa vidu
+          REST API. Izskatam <em>Tailwind CSS</em>, bet datu bāzei{" "}
+          <em>Redis</em>. Un tam visam jāstrādā kopā <em>blazingly fast</em>?!
+          Man noreiba galva... Varbūt <strong>trešdienu</strong> pēcpusdienās
+          vēlies kopā saprast, kā būvēt mūsdienīgu tīmekļa sistēmu?
         </Text>
         <Text mb="xl" mt="md" c="dimmed">
-          Šīs interešu nodarbības nav saistītas ar <em>Draugiem Group</em>{" "}
-          konkursu.
+          Paldies tiem, kas atvēra man acis un ļāva saprast, ka nemāku vēl
+          programmēt!
         </Text>
         <Form />
       </Container>

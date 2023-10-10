@@ -93,36 +93,6 @@ function Form() {
             mt="md"
             {...form.getInputProps("group")}
           />
-          <Checkbox.Group
-            defaultValue={[""]}
-            label="Kad?"
-            description="Atzīmē visus laikus, kuros varētu tikt uz nodarbībām. Ja netiec šajos, tad neatzīmē neko."
-            mt="xl"
-            {...form.getInputProps("time")}
-          >
-            <Group mt="xs">
-              <Checkbox
-                color="grape.8"
-                value="tuesday"
-                label="Otrdien 15:30 - 17:00"
-              />
-              <Checkbox
-                color="grape.8"
-                value="wednesday"
-                label="Trešdien 15:30 - 17:00"
-              />
-            </Group>
-          </Checkbox.Group>
-          <MultiSelect
-            data={[
-              { value: "svelte", label: "Svelte" },
-              { value: "laravel", label: "Laravel" },
-            ]}
-            label="Kurus ietvarus bez React vēl tu vēlētos apgūt?"
-            placeholder="Izvēlies visus, kaut abus!"
-            mt="xl"
-            {...form.getInputProps("frameworks")}
-          />
           <Textarea
             placeholder="Jautājumi, rekomendācijas"
             label="Vieta komentāriem"
